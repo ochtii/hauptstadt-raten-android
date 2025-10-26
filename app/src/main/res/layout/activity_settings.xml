@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time_limit"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="8dp" />
+
+            <Spinner
+                android:id="@+id/timeLimitSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/surface"
+                android:padding="16dp"
+                android:layout_marginBottom="24dp" />
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/hintsSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hints_enabled"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:checked="true"
+                android:padding="16dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/country_selection_title"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/selectCountriesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_countries"
+                android:textSize="16sp"
+                android:padding="16dp"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

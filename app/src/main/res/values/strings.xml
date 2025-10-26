@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hauptstadt Raten</string>
+    <string name="start_game">Spiel starten</string>
+    <string name="settings">Einstellungen</string>
+    <string name="statistics">Statistik</string>
+    <string name="time_limit">Zeitlimit</string>
+    <string name="continents">Kontinente</string>
+    <string name="hints_enabled">Tipps aktivieren</string>
+    <string name="submit">Absenden</string>
+    <string name="next_question">Nächste Frage</string>
+    <string name="game_over">Spiel vorbei!</string>
+    <string name="score">Punkte: %d</string>
+    <string name="correct">Richtig!</string>
+    <string name="wrong">Falsch! Die richtige Antwort ist: %s</string>
+    <string name="what_is_capital">Was ist die Hauptstadt von %s?</string>
+    <string name="hint">Tipp: Der erste Buchstabe ist %s</string>
+    <string name="hint_letter_count">Tipp: %d Buchstaben</string>
+    <string name="show_hint">Tipp anzeigen</string>
+    <string name="show_hint_letters">Buchstabenanzahl</string>
+    <string name="show_hint_first_letter">Erster Buchstabe</string>
+    <string name="time_remaining">Zeit: %d s</string>
+    <string name="country_stats">Richtig: %1$d | Falsch: %2$d</string>
+    <string name="top_correct">Meistens richtig</string>
+    <string name="top_wrong">Meistens falsch</string>
+    <string name="no_statistics">Noch keine Statistiken vorhanden</string>
+    <string name="answers_count">%d Antworten</string>
+    <string name="select_countries">Länder auswählen</string>
+    <string name="country_selection_title">Länderauswahl</string>
+    <string name="all_countries">Alle Länder</string>
+    <string name="no_countries_selected">Wähle mindestens ein Land!</string>
+    <string name="back_to_menu">Zurück zum Menü</string>
+    <string name="play_again">Nochmal spielen</string>
+    <string name="select_continents">Wähle mindestens einen Kontinent!</string>
+    <string name="your_answer">Deine Antwort</string>
+    
+    <!-- Kontinente -->
+    <string name="africa">Afrika</string>
+    <string name="asia">Asien</string>
+    <string name="europe">Europa</string>
+    <string name="north_america">Nordamerika</string>
+    <string name="south_america">Südamerika</string>
+    <string name="oceania">Ozeanien</string>
+    
+    <!-- Zeitlimits -->
+    <string-array name="time_limit_entries">
+        <item>10 Sekunden</item>
+        <item>20 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>60 Sekunden</item>
+        <item>Kein Limit</item>
+    </string-array>
+    <string-array name="time_limit_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>0</item>
+    </string-array>
+</resources>

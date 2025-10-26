@@ -1,0 +1,69 @@
+# Gradle properties and configuration
+gradle.properties
+local.properties
+
+# Gradle build directories and caches
+.gradle/
+.gradle_temp/
+build/
+build_old/
+/build
+app/build/
+app/build_old/
+
+# Gradle cache files
+.gradle/caches/
+.gradle/wrapper/dists/
+**/.gradle/
+**/build/
+
+# Gradle daemon and lock files
+.gradle/daemon/
+.gradle/*.lock
+.gradle/*/*.lock
+
+# Gradle temporary files
+**/*.gradle.kts.compiled
+.gradle/buildOutputCleanup/
+.gradle/configuration-cache/
+
+# IntelliJ IDEA
+*.iml
+/.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
+
+# Mac
+.DS_Store
+
+# Build outputs
+/captures
+.externalNativeBuild
+.cxx
+
+# Android Studio Navigation editor
+.navigation/
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK files
+*.apk
+*.ap_
+*.aab
+
+# Compiled files
+*.dex
+*.class
+
+# Log files
+*.log
+
+# Profiling
+*.hprof
