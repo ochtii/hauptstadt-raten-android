@@ -180,7 +180,18 @@ Contributions sind willkommen! Bitte erstelle einen Pull Request für:
 
 ## 📄 Lizenz
 
-*(Lizenz hier einfügen)*
+Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die [LICENSE](LICENSE) Datei für Details.
+
+### MIT License - Kurzfassung
+
+✅ **Kommerzielle Nutzung erlaubt**  
+✅ **Modifikation erlaubt**  
+✅ **Distribution erlaubt**  
+✅ **Private Nutzung erlaubt**  
+❌ **Keine Haftung**  
+❌ **Keine Garantie**
+
+Die Software wird "wie besehen" zur Verfügung gestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung.
 
 ## 👤 Autor
 
